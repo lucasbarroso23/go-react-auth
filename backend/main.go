@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/lucasbarroso23/go-react-auth/backend/app"
+)
 
 func main() {
-	fmt.Println("Hello Auth")
+	app.StartApplication()
 }
